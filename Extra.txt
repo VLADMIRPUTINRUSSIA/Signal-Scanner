@@ -1,0 +1,22 @@
+Give Execution Permission (optional)
+##chmod +x device_comm_full.py##
+Run a Single Scan + Communication Attempt
+python3 device_comm_full.py --once
+Run in Interactive Manual Mode:
+python3 device_comm_full.py --manual
+You will be prompted to select devices and interact with them.
+Start Auto-Scan Every Hour:
+python3 device_comm_full.py --hourly
+This will keep running in the terminal. Leave it open, or use tmux/screen to background it.
+
+WHERE LOGS ARE STORED
+Scan results:
+~/.scanner_logs/wifi_scans/
+~/.scanner_logs/bt_scans/
+~/.scanner_logs/comm_logs/
+
+Debug errors:
+debug.log in the current directory
+
+
+
