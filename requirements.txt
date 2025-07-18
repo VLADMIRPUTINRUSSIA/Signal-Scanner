@@ -1,0 +1,3 @@
+sudo apt update
+sudo apt install -y bluez python3-bluez wireless-tools net-tools iputils-ping
+pip install pywifi bleak schedule
